@@ -127,8 +127,8 @@ rice-leaf-disease-classification/
 
 <table>
   <tr>
-    <td><img src="../outputs/plots & confusion_matrix/1. Training vs Validation Accuracy (EfficientNet).png" alt="EfficientNet Accuracy" width="400"/></td>
-    <td><img src="../outputs/plots & confusion_matrix/2. Training vs Validation Loss (EfficientNet).png" alt="EfficientNet Loss" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/1. Training vs Validation Accuracy (EfficientNet).png" alt="EfficientNet Accuracy" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/2. Training vs Validation Loss (EfficientNet).png" alt="EfficientNet Loss" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Training vs Validation Accuracy</em></td>
@@ -136,7 +136,7 @@ rice-leaf-disease-classification/
   </tr>
 </table>
 
-<img src="../outputs/plots & confusion_matrix/4. EfficientNet - Training & Validation Accuracy Over Epochs.png" alt="EfficientNet Accuracy Over Epochs" width="820"/>
+<img src="./outputs/plots & confusion_matrix/4. EfficientNet - Training & Validation Accuracy Over Epochs.png" alt="EfficientNet Accuracy Over Epochs" width="820"/>
 
 > Best training accuracy: **81.52%** (Epoch 20) · Best validation accuracy: **80.68%** (Epoch 14) · Mild overfitting gap: **4.25%**
 
@@ -146,8 +146,8 @@ rice-leaf-disease-classification/
 
 <table>
   <tr>
-    <td><img src="../outputs/plots & confusion_matrix/5. Training vs Validation Accuracy (ResNet).png" alt="ResNet Accuracy" width="400"/></td>
-    <td><img src="../outputs/plots & confusion_matrix/6. Training vs Validation Loss (ResNet).png" alt="ResNet Loss" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/5. Training vs Validation Accuracy (ResNet).png" alt="ResNet Accuracy" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/6. Training vs Validation Loss (ResNet).png" alt="ResNet Loss" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Training vs Validation Accuracy</em></td>
@@ -155,7 +155,7 @@ rice-leaf-disease-classification/
   </tr>
 </table>
 
-<img src="../outputs/plots & confusion_matrix/8. ResNet - Training & Validation Accuracy Over Epochs.png" alt="ResNet Accuracy Over Epochs" width="820"/>
+<img src="./outputs/plots & confusion_matrix/8. ResNet - Training & Validation Accuracy Over Epochs.png" alt="ResNet Accuracy Over Epochs" width="820"/>
 
 > Best training accuracy: **94.57%** · Best validation accuracy: **96.40%** (Epoch 6) · No overfitting (gap: **−1.83%**)
 
@@ -169,8 +169,8 @@ rice-leaf-disease-classification/
     <td align="center"><strong>ResNet50</strong></td>
   </tr>
   <tr>
-    <td><img src="../outputs/plots & confusion_matrix/3. Confusion Matrix (EfficientNet).png" alt="EfficientNet Confusion Matrix" width="400"/></td>
-    <td><img src="../outputs/plots & confusion_matrix/7. ResNet Confusion Matrix (ResNet).png" alt="ResNet Confusion Matrix" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/3. Confusion Matrix (EfficientNet).png" alt="EfficientNet Confusion Matrix" width="400"/></td>
+    <td><img src="./outputs/plots & confusion_matrix/7. ResNet Confusion Matrix (ResNet).png" alt="ResNet Confusion Matrix" width="400"/></td>
   </tr>
 </table>
 
@@ -180,7 +180,7 @@ ResNet50 achieves a near-perfect diagonal — **Bacterial Leaf Blight classified
 
 ## ⚖️ Model Comparison
 
-<img src="../outputs/plots & confusion_matrix/9. EfficientNet vs ResNet COMPARISON.png" alt="Model Comparison" width="820"/>
+<img src="./outputs/plots & confusion_matrix/9. EfficientNet vs ResNet COMPARISON .png" alt="Model Comparison" width="820"/>
 
 | Metric                    | ResNet50                | EfficientNet-B0     |
 | ------------------------- | ----------------------- | ------------------- |
@@ -198,7 +198,7 @@ ResNet50 achieves a near-perfect diagonal — **Bacterial Leaf Blight classified
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rice-leaf-disease-classification.git
+git clone https://github.com/Rakin-Al-Mahin/Rice_Leaf_Disease_Classification
 cd rice-leaf-disease-classification
 ```
 
